@@ -1,0 +1,96 @@
+body{
+background-color: rgb(252, 247, 247);
+
+}
+
+h1{
+
+  font-size: 40pt;
+  margin-top: -10px;
+  margin-bottom: -2px;
+  background-color: gray;
+  color: white;
+  width: 1910px;
+  border-radius: 10px;
+  padding: 3px;
+  padding-left: 15px;
+}
+
+
+#deposito{
+border: solid black 5px;
+display: flex;
+border-radius: 15px;
+width: 1900px;
+padding: 3px;
+}
+
+
+.cabecalhos{
+border: solid black 4px;
+text-align: center;
+font-size: 20pt;
+margin:-1px;
+color: black;
+background-image: linear-gradient(to right,rgb(83, 241, 62), rgb(14, 133, 39));
+}
+
+.posicao{
+border: solid black 1px;
+padding: 4px;
+padding-left:15px;
+padding-right:15px;
+font-size: 12pt;
+
+}
+
+#prateleira1{
+border: solid black 3px ;
+border-radius: 10px;
+display: flex;
+margin-right: 150px;
+}
+
+#prateleira2{
+border: solid black 3px ;
+border-radius: 10px;
+display: flex;
+margin-right: 15px;
+}
+
+#prateleira3{
+border: solid black 3px ;
+border-radius: 10px;
+display: flex;
+margin-right: 150px;
+}
+
+#prateleira4{
+border: solid black 3px ;
+border-radius: 10px;
+display: flex;
+}
+
+
+.highlight {
+  background-color: green;
+  color: white;
+}
+
+#input{
+width: 200px;
+height: 100px;
+font-size: 20pt;
+border-radius: 10px;
+margin-left: 50px;
+margin-top: 50px;
+}
+
+button{
+width: 200px;
+height:100px;
+font-size:30pt;
+border-radius: 10px;
+margin-top: 50px;
+margin-left: 10px;
+}
