@@ -1,5 +1,6 @@
 body{
-background-color: rgb(252, 247, 247);
+/*background-color: rgb(206, 206, 206);*/
+background-image: url(wallpaper2.jpg)
 
 }
 
@@ -10,12 +11,18 @@ h1{
   margin-bottom: -2px;
   background-color: gray;
   color: white;
-  width: 1910px;
+  width: 1900px;
   border-radius: 10px;
   padding: 3px;
   padding-left: 15px;
+  border: solid black 2px;
+  
 }
 
+#ld{
+  display: flex;
+  flex-direction: column;
+}
 
 #deposito{
 border: solid black 5px;
@@ -23,6 +30,7 @@ display: flex;
 border-radius: 15px;
 width: 1900px;
 padding: 3px;
+background: rgba(100,100,100,0.8);
 }
 
 
@@ -31,8 +39,11 @@ border: solid black 4px;
 text-align: center;
 font-size: 20pt;
 margin:-1px;
-color: black;
-background-image: linear-gradient(to right,rgb(83, 241, 62), rgb(14, 133, 39));
+color: white;
+/*background-image: linear-gradient(to right,rgb(83, 241, 62), rgb(14, 133, 39));*/
+border-radius: 5px;
+background: rgb(43, 42, 42);
+
 }
 
 .posicao{
@@ -49,6 +60,7 @@ border: solid black 3px ;
 border-radius: 10px;
 display: flex;
 margin-right: 150px;
+background: rgb(216, 215, 215);
 }
 
 #prateleira2{
@@ -56,6 +68,7 @@ border: solid black 3px ;
 border-radius: 10px;
 display: flex;
 margin-right: 15px;
+background: rgb(216, 215, 215);
 }
 
 #prateleira3{
@@ -63,34 +76,54 @@ border: solid black 3px ;
 border-radius: 10px;
 display: flex;
 margin-right: 150px;
+background: rgb(216, 215, 215);
 }
 
 #prateleira4{
 border: solid black 3px ;
 border-radius: 10px;
 display: flex;
+background: rgb(216, 215, 215);
 }
 
 
 .highlight {
-  background-color: green;
+  background-color: rgb(88, 143, 88);
   color: white;
+  border: solid white 1px;
+}
+
+.inputBotao{/*manter botao e input lado a lado*/
+  display: flex;
 }
 
 #input{
 width: 200px;
-height: 100px;
+height: 70px;
 font-size: 20pt;
 border-radius: 10px;
 margin-left: 50px;
 margin-top: 50px;
+
+}
+
+#input2{
+width: 200px;
+height: 70px;
+font-size: 20pt;
+border-radius: 10px;
+margin-left: 50px;
+margin-top: 50px;
+padding: 5px;
+
 }
 
 button{
 width: 200px;
-height:100px;
+height: 70px;
 font-size:30pt;
 border-radius: 10px;
 margin-top: 50px;
 margin-left: 10px;
+cursor: pointer;
 }

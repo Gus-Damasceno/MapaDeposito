@@ -299,7 +299,18 @@ function localizar() {
   });
 }
 
+/*----Função para adicionar legenda */
 
+function legendar(){
+  let campo = document.getElementById("titulo");
+  let texto = document.getElementById("input2").value;
+
+  campo.innerText += " - " + texto;
+
+  
+  
+
+}
 
 
 
